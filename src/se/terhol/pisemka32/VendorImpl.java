@@ -59,7 +59,7 @@ public class VendorImpl implements Vendor {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os));
 
         for (Magazine magazine : magazine.keySet()) {
-            writer.write(magazine.getName() + " /" + magazine.getIssue() + "/: " + this.getPrice(magazine));
+            writer.write(String.format("%s/%o:%.1f",magazine.getName(),magazine.getIssue(),this.getPrice(magazine)));
             writer.newLine();
             writer.flush();
         }
