@@ -1,4 +1,4 @@
-# Test 3-1
+# Test 3-2
 Third test version 2 from subject PB162 on [FI MUNI](https://www.fi.muni.cz/)
 
 ## Description (Czech language only)
